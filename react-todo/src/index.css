@@ -1,0 +1,84 @@
+body{
+    height:98vh;
+    background: linear-gradient(45deg, #e54142, #5c2ac2);
+}
+.noteText{
+    width:500px;
+    border:2px solid white;
+    border-radius: 15px;
+    background: white;
+    height:30px;
+    font-size:25px;
+    font-style: italic;
+    cursor: pointer;
+    padding:5px;
+
+}
+
+.through{
+    text-decoration: line-through;
+}
+
+
+.App{
+    margin: 0 auto; 
+    width:700px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TodoNote{
+display: flex;
+justify-content:space-around;
+width:600px;
+margin-top:10px;
+align-items:center;
+
+}
+
+.mainForm{
+    display: flex;
+    justify-content:space-around;
+    width:600px;
+    margin-top: 10px;
+    align-items:center;
+   
+}
+
+.mainForm input{
+    width:400px;
+    border-radius: 15px;
+    height:30px;
+    font-size:25px;
+    padding: 5px;
+    font-style: italic;
+    border-color: white;
+    
+}
+
+.mainForm button{
+    width:165px;
+    border-radius: 15px;
+    height:46px;
+    font-size:18px;
+    font-style: italic;
+    background:white;
+    padding: 5px;
+
+}
+
+.taskList{
+    border-bottom: 2px solid #ccc;
+    width:100%;
+    text-align:center;
+    padding:10px;
+    font-size:30px;
+    font-style: italic;
+}
+
+.TodoDelete{
+    font-size:35px;
+    cursor: pointer;
+    
+}
